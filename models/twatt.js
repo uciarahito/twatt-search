@@ -1,5 +1,4 @@
 var OAuth = require('oauth');
-require('dotenv').config()
 
 module.exports = {
   getOauth: (callback) => {
@@ -15,4 +14,3 @@ module.exports = {
     callback(oauth)
   }
 }
-

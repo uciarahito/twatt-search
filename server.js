@@ -3,6 +3,7 @@ const app = express()
 const bodyParser = require('body-parser')
 const index = require('./routes/index')
 const logger = require('morgan')
+require('dotenv').config()
 
 // NOTE: set
 app.set('port', process.env.PORT || 3000)
